@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+.drag-border {
+  background: #ff525b
+}
+
+.drag-handle {
+  cursor: move; /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+.drag-handle:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+/* Droppable */
+
+.drag-hint-border {
+  background: #3c763d
+}
+
+.drag-over-border {
+  background: #fbbc05
+}
+
+.drag-transit {
+  background: #3500FF
+}

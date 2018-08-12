@@ -1,0 +1,12 @@
+<div class="lista">
+
+  <div *ngFor="let item of dnd.guestList ; let i = index;">
+
+    <div  class="test" [dropEnabled]="dnd.lockDrop(i,dnd.guestList)" [dragEnabled]="dnd.lockDrag(i,dnd.guestList)" (onDrop)="dnd.onItemDrop($event, i, dnd.guestList)"
+      draggable droppable [dragData]="{name: item, index: i, db: 'guestList'} "> {{item}} </div>
+
+  </div>
+
+  <button (click)="fileDB.postGuest(dnd.guestList, dnd.stol1_1, dnd.stol1_2, dnd.stol2_1, dnd.stol2_2, dnd.stol3_1, dnd.stol3_2)">Zapisz</button>
+</div>
+

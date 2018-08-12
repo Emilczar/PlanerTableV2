@@ -1,0 +1,49 @@
+#table1 {
+position: absolute;
+transform: rotate(-90deg);
+transform-origin: left top ;
+top: 445px;
+left: 330px;
+}
+
+#table2 {
+  position: absolute;
+  top: 450px;
+  margin-bottom: 50px;
+}
+
+#table3 {
+  position: absolute;
+  top: 450px;
+  left: 500px;
+}
+
+
+#guest {
+position: relative;
+  left: 700px;
+
+}
+
+.pozycja1 {
+  position: absolute;
+  left: 350px;
+  color: white;
+  top: 185px;
+  z-index: 10;
+}
+
+.pozycja2 {
+  position: absolute;
+  left: 220px;
+  top: 430px;
+  color: white;
+  z-index: 10;
+}
+.pozycja3 {
+  position: absolute;
+  left: 710px;
+  top: 430px;
+  color: white;
+  z-index: 10;
+}
